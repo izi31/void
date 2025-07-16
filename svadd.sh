@@ -24,3 +24,11 @@ else
     echo "Adding service '$SERVICE_NAME' failed."
 exit 1
 fi
+
+: '
+ADD:
+svadd() {
+    /path/to/svadd.sh "$1"
+    }
+to either ~/.zshrc or ~/.bashrc
+'
